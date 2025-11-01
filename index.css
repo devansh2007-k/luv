@@ -6,7 +6,7 @@
 
 body.bg-image {
     margin: 0;
-    background: url('diwali.jpg') no-repeat center center fixed;
+    background: url('image-Photoroom.png') no-repeat center center fixed;
     background-size: cover;
   }
   
@@ -385,3 +385,4 @@ footer {
   to { transform: scale(1); opacity: 1; }
 
 }
+
