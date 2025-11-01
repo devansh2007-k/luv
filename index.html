@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your photo</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body class="bg-image">
+    <div class="container">
+        <header>
+            <h1>I love you kunjal forever 💘</h1>
+            <div class="heart-animation">❤</div>
+        </header>
+
+        <section class="journey-timer">
+            <h2>Our Journey Together</h2>
+            <div class="date-display">
+                <p>Since: <span id="start-date">may 1, 2025</span></p>
+                <div class="timer">
+                    <div class="time-unit">
+                        <span id="days">0</span>
+                        <span class="label">Days</span>
+                    </div>
+                    <div class="time-unit">
+                        <span id="hours">0</span>
+                        <span class="label">Hours</span>
+                    </div>
+                    <div class="time-unit">
+                        <span id="minutes">0</span>
+                        <span class="label">Minutes</span>
+                    </div>
+                    <div class="time-unit">
+                        <span id="seconds">0</span>
+                        <span class="label">Seconds</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cute-notes">
+            <h2>Notes For You</h2>
+            <div class="note">
+                <p>Talking to you is my fav part of everyday</p>
+            </div>
+            <div class="note">
+                <p>Your smile and laughter is my favorite sight in the whole world.</p>
+            </div>
+            <div class="note">
+                <p>I love you more than you'll ever know</p>
+            </div>
+            <!-- Add more notes as desired -->
+        </section>
+
+        <section class="cute-questions">
+            <h2>Just For You</h2>
+            <div class="question-container">
+                <div class="question" id="question1">
+                    <h3>What's your favorite memory of us?</h3>
+                    <button class="reveal-btn" onclick="revealAnswer('answer1')">See My Answer</button>
+                    <p class="answer" id="answer1">The day when we spent kissing and cuddling on 24 june that day felt magical</p>
+                </div>
+                
+                <div class="question" id="question2">
+                    <h3>When did I first realize I was falling for you?</h3>
+                    <button class="reveal-btn" onclick="revealAnswer('answer2')">See My Answer</button>
+                    <p class="answer" id="answer2">When I realised ki im very scared to lose you plus you look like the perfection i dreamed of once .</p>
+                </div>
+                
+                <div class="question" id="question3">
+                    <h3>What's my favorite thing about you?</h3>
+                    <button class="reveal-btn" onclick="revealAnswer('answer3')">See My Answer</button>
+                    <p class="answer" id="answer3">You're so honest with me from the start and you smile is so cute the best curve in your body fr</p>
+                </div>
+                
+                <!-- Add more questions as desired -->
+            </div>
+        </section>
+
+        <section class="photo-gallery">
+            <h2>Our Memories</h2>
+            <p class="gallery-intro">Here are some of our most precious moments together...</p>
+            
+            <div class="gallery">
+                <!-- Photo placeholders - replace with your actual photos -->
+
+                <div class="photo-container">
+                    <div class="photo">
+                        <img src="first meet.jpg" alt="Add your photo here">
+                        <div class="photo-caption">first Meeting</div>
+                    </div>
+                </div>
+                
+                <div class="photo-container">
+                    <div class="photo">
+                        <img src="cuddle and kiss.jpg" alt="Add your photo here">
+                        <div class="photo-caption">first kiss</div>
+                    </div>
+                </div>
+                
+                <div class="photo-container">
+                    <div class="photo">
+                        <img src="first bouquet of mine.jpg" alt="Add your photo here">
+                        <div class="photo-caption">first bouquet</div>
+                    </div>
+                </div>
+
+                <div class="photo-container">
+                    <div class="photo">
+                        <img src="girlfriend day.jpg" alt="Add your photo here">
+                        <div class="photo-caption">girlfriend's day</div>
+                    </div>
+                </div>
+
+                <div class="photo-container">
+                    <div class="photo">
+                        <img src="oven fresh.jpg" alt="Add your photo here">
+                        <div class="photo-caption">cool white fit</div>
+                    </div>
+                </div>
+
+                <div class="photo-container">
+                    <div class="photo">
+                        <img src="simba and me.jpg" alt="Add your photo here">
+                        <div class="photo-caption">simba and me</div>
+                    </div>
+                </div>
+
+                <div class="photo-container">
+                    <div class="photo">
+                        <img src="sukhna lake.jpg" alt="Add your photo here">
+                        <div class="photo-caption">sukhna lake</div>
+                    </div>
+                </div>
+
+                <div class="photo-container">
+                    <div class="photo">
+                        <img src="first official meet.jpg" alt="Add your photo here">
+                        <div class="photo-caption">first official meet</div>
+                    </div>
+                </div>
+
+                <div class="photo-container">
+                    <div class="photo">
+                        <img src="garba.jpg" alt="Add your photo here">
+                        <div class="photo-caption">garba</div>
+                    </div>
+                </div>
+                <div class="photo-container">
+                    <div class="photo">
+                        <img src="bf day.jpg" alt="Add your photo here">
+                        <div class="photo-caption">boyfriend day</div>
+                    </div>
+                </div>
+
+                <div class="photo-container">
+                    <div class="photo">
+                        <img src="first diwali.jpg" alt="Add your photo here">
+                        <div class="photo-caption">first diwali</div>
+                    </div>
+                </div>
+
+                <div class="photo-container">
+                    <div class="photo">
+                        <img src="tattoo.jpg" alt="Add your photo here">
+                        <div class="photo-caption">tattoo</div>
+                    </div>
+                </div>
+
+                <div class="photo-container">
+                    <div class="photo">
+                        <img src="sleeping baby.jpg" alt="Add your photo here">
+                        <div class="photo-caption">sleeping baby</div>
+                    </div>
+                </div>
+
+                <div class="photo-container">
+                    <div class="photo">
+                        <img src="fav pic.jpg" alt="Add your photo here">
+                        <div class="photo-caption">my fav picture</div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="special-message">
+            <h2>You're My Everything baby</h2>
+            <div class="message-content">
+                <p>
+                    From the moment you came into my life, everything changed. Your love has been my strength that 
+                    has made me a better person i left most of my bad habits, your smile my sunshine, and your presence 
+                    my home. Every day with you is a blessing, and I cherish every moment we spend together and I promise
+                    to love you more with each passing day. we are meant to be forever.
+                </p>
+                <p>
+                    Thank you for being my partner, my best friend, my caretaker and my favorite person in the whole world.
+                </p>
+                <div class="signature">Forever together</div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Made with ❤ lots of love by devansh</p>
+        </footer>
+    </div>
+
+
+    <audio autoplay loop>
+        <source src="https://www.bensound.com/bensound-music/bensound-love.mp3" type="audio/mpeg">
+    </audio>
+    <script src="script.js"></script>
+    <script type="module" src="main.js"></script>
+</body>
+</html>
